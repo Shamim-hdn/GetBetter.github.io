@@ -1,0 +1,216 @@
+/* Custom CSS for the GetBetter website */
+
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+background-color: #f8f9fa;
+scroll-behavior: smooth;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(45deg, rgba(194, 191, 12, 0.7), rgba(36, 35, 24, 0.7)), no-repeat center center/cover;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.25rem;
+}
+
+header .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+}
+
+.navbar-brand {
+    width: 90px;
+}
+
+.navbar-brand > img {
+    width: 100%;
+}
+
+/* Navbar Styles */
+.navbar-brand span {
+    color: #000;
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+    font-weight: 500;
+}
+
+.navbar-nav .btn {
+    background-color: #dc3545;
+    border: none;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-light {
+    background-color: #f8f9fa;
+    color: #007bff;
+}
+
+/* Stats Section */
+.stats {
+    background-color: #f1f1f1;
+    color: #007bff;
+}
+
+.stats h2 {
+    font-size: 2.5rem;
+}
+
+/* Video Card Styles */
+.videos .card {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.videos .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.videos .card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.videos .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* About Section */
+.about img {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section Styles */
+.contact iframe {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.footer h5 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.footer a {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #adb5bd;
+}
+
+.footer .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #dc3545;
+}
+
+/* SVG Divider Styles */
+.svg-divider {
+    width: 100%;
+    height: 152px;
+    margin-bottom: -1px;
+    fill: rgba(194, 191, 12, 0.7)
+}
+
+.svg-divider .shape-fill {
+    fill: inherit;
+}
+
+/* Responsive Video */
+.hero {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.hero video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 1.5rem;
+    margin-top: 3.5rem;
+}
+
+.hero p {
+    font-size: 1rem;
+}
+
+.hero .btn {
+    font-size: 0.875rem;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header p {
+        font-size: 1.25rem;
+    }
+
+    .footer h5 {
+        font-size: 1.25rem;
+    }
+
+    .hero {
+        height: 100vh;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 1.25rem;
+    }
+
+    .hero .btn {
+        font-size: 1.25rem;
+    }
+}
+
